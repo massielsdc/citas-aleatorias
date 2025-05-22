@@ -1,0 +1,90 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background: url(img/cherry.jpg) no-repeat center center /cover;
+}
+
+.contenido-centrado {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor */
+
+.contenedor {
+    width: 80vw;
+    max-width: 500px;
+    min-height: 300px;
+    padding: 20px;
+    margin: 40px;
+    background-color: rgba(255, 192, 203, 0.8);
+    border-radius: 20px;
+}
+
+.contenedor-interno {
+    width: 90%;
+}
+
+/* Contenido */
+#titulo {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+#cita {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#autor {
+    width: 100%;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    ;
+}
+
+#boton-cambiar-cita {
+    width: 150px;
+    height: 50px;
+    font-size: 18;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
